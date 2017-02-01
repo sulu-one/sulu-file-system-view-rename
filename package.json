@@ -1,15 +1,15 @@
 {
   "suluPackage": {
-    "hotkeys" : [
+    "hotkeys": [
       {
-        "key" : "f2" , 
-        "function" : "rename"
+        "key": "f2",
+        "function": "rename"
       }
     ]
-  }, 
+  },
   "name": "sulu-file-system-view-rename",
   "description": "Rename active item(s) in filesystem view of SULU",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "scripts": {
     "bump": "npm version patch && git push && git push --tags && npm publish",
