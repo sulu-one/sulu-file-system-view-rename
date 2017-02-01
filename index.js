@@ -38,7 +38,6 @@ Command.prototype.rename = function rename() {
 
 var Plugin = function (client) {
 	this.command = new Command(); 
-	client.app.registerHotKey("f2", this.command.rename);
 };
 
 module.exports = Plugin;

@@ -1,5 +1,12 @@
 {
-  "suluPackage": true,
+  "suluPackage": {
+    "hotkeys" : [
+      {
+        "key" : "f2" , 
+        "function" : "rename"
+      }
+    ]
+  }, 
   "name": "sulu-file-system-view-rename",
   "description": "Rename active item(s) in filesystem view of SULU",
   "version": "1.0.3",
